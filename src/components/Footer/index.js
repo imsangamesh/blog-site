@@ -63,7 +63,7 @@ const Footer = () => {
       {/* ------------------------- COPYRIGHTS */}
       <div className="w-full mt-8 md:mt-16 relative font-medium border-t border-solid border-light dark:border-dark py-6 px-8 flex flex-col md:flex-row justify-between items-center">
         <span className="text-center">
-          &copy; 2023 CodeBucks. All rights reserved.
+          &copy; 2023 SaninePink. All rights reserved.
         </span>
 
         <Link
@@ -78,7 +78,7 @@ const Footer = () => {
             href="https://devdreaming.com"
             target="_blank"
             className="underline">
-            CodeBucks
+            SaninePink
           </a>
         </div>
       </div>
