@@ -18,7 +18,7 @@ const About = () => {
         <Link href="/contact" className="!underline underline-offset-4">
           here
         </Link>{" "}
-        and let's make it happen.
+        and let&apos;s make it happen.
       </h2>
     </>
   );

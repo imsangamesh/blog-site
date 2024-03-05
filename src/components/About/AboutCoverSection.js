@@ -21,7 +21,7 @@ const AboutCoverSection = () => {
         <p className="font-medium mt-4 text-base">
           This Mantra Drives My Work As A Passionate Freelancer. I Blend
           Innovative Technology With Timeless Design For Captivating Digital
-          Experiences. Inspired By Nature And Literature, I'm A Perpetual
+          Experiences. Inspired By Nature And Literature, I&apos;m A Perpetual
           Learner Embracing Challenges. With Each Project, I Aim To Leave A
           Lasting Impact—One Pixel At A Time.
         </p>

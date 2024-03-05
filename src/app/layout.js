@@ -1,8 +1,8 @@
 import Header from "@/src/components/Header";
 import { cx } from "@/src/utils";
 import { Inter, Manrope } from "next/font/google";
+import Script from "next/script";
 import Footer from "../components/Footer";
-import ThemeScript from "../components/ThemeScript";
 import siteMetadata from "../utils/siteMetaData";
 import "./globals.css";
 
@@ -62,7 +62,10 @@ export default function RootLayout({ children }) {
           manrope.variable,
           "font-mr bg-light dark:bg-dark"
         )}>
-        <ThemeScript />
+        <Script id="theme-switcher" strategy="beforeInteractive">
+          {`if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) { document.documentElement.classList.add('dark') } else { document.documentElement.classList.remove('dark') } `}
+        </Script>
+
         <Header />
         {children}
         <Footer />
